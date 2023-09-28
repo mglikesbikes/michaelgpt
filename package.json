@@ -15,8 +15,11 @@
 		"test:unit": "vitest"
 	},
 	"devDependencies": {
+		"@cloudflare/ai": "^1.0.14",
+		"@cloudflare/workers-types": "^4.20230922.0",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-cloudflare-workers": "^1.1.4",
 		"@sveltejs/kit": "^1.20.4",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
