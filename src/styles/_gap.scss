@@ -1,0 +1,15 @@
+[data-gap] {
+  gap: 1rem;
+}
+
+[data-gap*="sm"] {
+  gap: 0.5rem;
+}
+
+[data-gap*="xs"] {
+  gap: 0.25rem;
+}
+
+[data-gap*="lg"] {
+  gap: 1rem;
+}

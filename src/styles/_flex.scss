@@ -1,0 +1,17 @@
+// little flex helper
+// use it with _gap.scss
+[data-flex] {
+  display: flex;
+}
+
+[data-flex*="v"] {
+  flex-direction: column;
+}
+
+[data-flex*="ac"] {
+  align-items: center;
+}
+
+[data-flex*="jc"] {
+  justify-content: center;
+}
