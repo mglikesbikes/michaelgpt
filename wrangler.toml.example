@@ -7,3 +7,7 @@ main="cloudflare/worker.js"
 
 [site]
   bucket="cloudflare/public"
+
+kv_namespaces = [
+  { binding = "DATASET", id = "" }
+]
