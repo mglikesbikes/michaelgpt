@@ -10,6 +10,7 @@ declare global {
     interface Platform {
       context?: ExecutionContext;
       env: {
+        IS_DEV: string;
         DATASET: KVNamespace;
       };
     }

@@ -5,9 +5,9 @@ compatibility_date="2023-09-29"
 workers_dev=true
 main="cloudflare/worker.js"
 
+kv_namespaces = [
+  { binding = "DATASET", id = "", preview_id = "" }
+]
+
 [site]
   bucket="cloudflare/public"
-
-kv_namespaces = [
-  { binding = "DATASET", id = "" }
-]
