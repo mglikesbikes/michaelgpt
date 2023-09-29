@@ -13,7 +13,7 @@
 
   const handleAboutClick = () => {
     window.scrollTo({
-      left: Infinity,
+      left: document.body.scrollWidth,
       behavior: 'smooth'
     });
   };

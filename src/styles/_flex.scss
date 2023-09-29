@@ -8,6 +8,10 @@
   flex-direction: column;
 }
 
+[data-flex*="as"] {
+  align-items: start;
+}
+
 [data-flex*="ac"] {
   align-items: center;
 }
