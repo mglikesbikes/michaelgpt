@@ -6,7 +6,7 @@
   import '@fontsource/roboto-slab/800.css';
   import '../styles/global.scss';
 
-  import Main from '$lib/Main.svelte';
+  import Nav from '$lib/Nav.svelte';
 
   export let data: PageData;
 </script>
@@ -20,11 +20,15 @@
   <meta name="viewport" content="width=device-width" />
 </svelte:head>
 
-<Main>
-  <div slot="chat">
-    <h2>Chat page</h2>
-  </div>
-  <div slot="about">
-    <h2>About page</h2>
-  </div>
-</Main>
+<Nav />
+
+<style lang="scss">
+  :global(html) {
+    scroll-snap-type: x mandatory;
+  }
+
+  :global(body) {
+    display: flex;
+    width: 100vw;
+  }
+</style>

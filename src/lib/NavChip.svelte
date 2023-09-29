@@ -3,18 +3,17 @@
   import MichaelGptIcon from './icons/MichaelGPTIcon.svelte';
 
   export let scroll_percent: number;
-  export let scroll_container: HTMLDivElement;
 
   const handleChatClick = () => {
-    scroll_container.scrollTo({
+    window.scrollTo({
       left: 0,
       behavior: 'smooth'
     });
   };
 
   const handleAboutClick = () => {
-    scroll_container.scrollTo({
-      left: 640,
+    window.scrollTo({
+      left: Infinity,
       behavior: 'smooth'
     });
   };
@@ -47,12 +46,11 @@
     margin: auto;
     background-color: #efefef;
     border-radius: 8px;
-    position: relative;
 
     &:after {
       content: '';
-      width: 136px;
-      height: 48px;
+      width: 140px;
+      height: 52px;
       position: absolute;
       background-color: #fff;
       z-index: 0;
