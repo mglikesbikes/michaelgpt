@@ -4,7 +4,7 @@
   import '@fontsource/roboto/400.css';
   import '@fontsource/roboto-slab/400.css';
   import '@fontsource/roboto-slab/800.css';
-  import '../styles/global.scss';
+  import '$lib/styles/app.scss';
 
   import Nav from '$lib/Nav.svelte';
   import Chat from '$lib/chat/Chat.svelte';
@@ -19,7 +19,10 @@
   <meta property="og:title" content="MichaelGPT" />
   <meta property="og:description" content="Ask my AI work-related questions" />
   <meta property="og:image" content="{data.root}/og-image.png" />
-  <meta name="viewport" content="width=device-width" />
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1,minimum-scale=1"
+  />
 </svelte:head>
 
 <Nav />

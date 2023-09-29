@@ -1,0 +1,9 @@
+name=""
+account_id=""
+compatibility_date="2023-09-29"
+
+workers_dev=true
+main="cloudflare/worker.js"
+
+[site]
+  bucket="cloudflare/public"
