@@ -12,6 +12,8 @@ declare global {
       env: {
         IS_DEV: string;
         DATASET: KVNamespace;
+        AI: import('@cloudflare/ai').Ai;
+        DATASET_VECTORS: VectorizeIndex;
       };
     }
   }

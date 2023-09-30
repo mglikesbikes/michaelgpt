@@ -11,3 +11,10 @@ kv_namespaces = [
 
 [site]
   bucket="cloudflare/public"
+
+[ai]
+  binding="AI"
+
+[[vectorize]]
+  binding = "DATASET_VECTORS"
+  index_name = "dataset-vectors"

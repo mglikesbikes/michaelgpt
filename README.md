@@ -22,3 +22,11 @@ You will need a Cloudflare account ID to run this locally and deploy it; retriev
 ```
 
 This command returns an ID, add it to your `wrangler.toml` and use the same ID for `id` and `preview_id`.
+
+### Create the Vectorize index to hold embeddings
+
+```
+$ npx wrangler@latest vectorize create dataset-vectors --dimensions=1536 --metric=cosine
+```
+
+Note: the binding in `wrangler.toml` is `DATASET_VECTORS` to align its domain with the KV store. (See: `app.d.ts` for full bindings.)
