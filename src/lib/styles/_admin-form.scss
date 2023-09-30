@@ -1,0 +1,29 @@
+form {
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    label {
+      font-family: "Roboto Slab";
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      padding: 0.5rem;
+
+      border-radius: 0.5rem;
+      border: 1px solid #000;
+      font-size: 1rem;
+
+      display: block;
+      width: 100%;
+    }
+
+    textarea {
+      font-family: "Roboto";
+      min-height: 128px;
+    }
+  }
+}

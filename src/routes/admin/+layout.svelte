@@ -9,7 +9,7 @@
   <title>Admin</title>
 </svelte:head>
 
-<main>
+<main data-flex="v" data-gap="lg">
   <slot />
 </main>
 
@@ -19,5 +19,13 @@
     max-width: 640px;
     margin: auto;
     padding: 1.5rem;
+  }
+
+  :global(h1) {
+    font-size: 1.5rem;
+  }
+
+  :global(h2) {
+    font-size: 1.125rem;
   }
 </style>

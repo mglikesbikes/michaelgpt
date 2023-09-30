@@ -1,0 +1,19 @@
+[data-btn] {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+
+  font-family: "Roboto Slab";
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  background-color: #370520;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+[data-btn*="secondary"] {
+  background-color: #ccc;
+  color: #000;
+}
