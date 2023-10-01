@@ -9,7 +9,13 @@ A portfolio piece designed, developed and architected by fullstack developer [Mi
 - [Figma design prototype](https://www.figma.com/proto/SEYbpEiyZsT6V3XsGH9F04/MichaelGPT)
 - [Figjam architecture diagram](https://www.figma.com/file/KsNtdYQF0H8tCEDnhl5ANm/MichaelGPT---Architecture)
 
-|![Landing](docs/screenshots/1.png)|![Adding a question](docs/screenshots/2.png)|![Waiting for KV to process](docs/screenshots/3.png)|![List of questions](docs/screenshots/4.png)|![Chatbot answering](docs/screenshots/5.png)|
+<table><tr>
+<td><img alt="Landing" src="docs/screenshots/1.png"/></td>
+<td><img alt="Adding a question" src="docs/screenshots/2.png"/></td>
+<td><img alt="Waiting for KV to process" src="docs/screenshots/3.png"/></td>
+<td><img alt="List of questions" src="docs/screenshots/4.png"/></td>
+<td><img alt="Chatbot answering" src="docs/screenshots/5.png"/></td>
+</tr></table>
 
 ## Environment setup
 
