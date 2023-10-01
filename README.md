@@ -51,9 +51,7 @@ import { resnetLabels } from "./labels.js";
 
 1. Copy the provided `wrangler.toml.example` file and rename it to `wrangler.toml`
 2. Run `npx wrangler@latest login`
-
-- **Important:** at launch, Cloudflare's AI products are restricted to paid accounts. You will need to provide a credit card to Cloudflare in order to run this.
-
+   - **Important:** at launch, Cloudflare's AI products are restricted to paid accounts. You will need to provide a credit card to Cloudflare in order to run this.
 3. Add your account id to `wrangler.toml`
 4. Give your worker a name, `name="my-bot"`
 
