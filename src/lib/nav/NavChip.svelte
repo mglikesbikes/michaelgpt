@@ -1,21 +1,19 @@
 <script lang="ts">
-  import AboutIcon from './icons/AboutIcon.svelte';
-  import MichaelGptIcon from './icons/MichaelGPTIcon.svelte';
+  import { createEventDispatcher } from 'svelte';
+
+  import AboutIcon from '$lib/icons/AboutIcon.svelte';
+  import MichaelGptIcon from '$lib/icons/MichaelGPTIcon.svelte';
 
   export let scroll_percent: number;
 
+  const dispatch = createEventDispatcher();
+
   const handleChatClick = () => {
-    window.scrollTo({
-      left: 0,
-      behavior: 'smooth'
-    });
+    dispatch('homeClick');
   };
 
   const handleAboutClick = () => {
-    window.scrollTo({
-      left: document.body.scrollWidth,
-      behavior: 'smooth'
-    });
+    dispatch('aboutClick');
   };
 </script>
 

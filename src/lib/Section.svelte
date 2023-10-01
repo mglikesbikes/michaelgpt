@@ -1,14 +1,5 @@
-<script lang="ts">
-  export let hpad: boolean = false;
-  export let fullheight: boolean = false;
-  export let sticky: boolean = false;
-</script>
-
-<section class:sticky>
-  <div class:hpad class:fullheight>
-    <slot />
-  </div>
-  <slot name="toolbar" />
+<section>
+  <slot />
 </section>
 
 <style lang="scss">
@@ -16,28 +7,9 @@
     scroll-snap-align: start;
     scroll-snap-stop: always;
 
-    width: 100vw;
+    width: 100%;
     flex-shrink: 0;
 
-    // header padding
-    padding-top: calc(84px + 1rem);
-
-    &.sticky {
-      position: sticky;
-      top: 0;
-    }
-
-    div {
-      max-width: 640px;
-      margin: auto;
-
-      &.hpad {
-        padding: 0 1.25rem;
-      }
-
-      &.fullheight {
-        min-height: 100vh;
-      }
-    }
+    padding-top: var(--nav-height);
   }
 </style>

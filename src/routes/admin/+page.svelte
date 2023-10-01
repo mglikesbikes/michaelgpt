@@ -96,7 +96,7 @@
   li {
     overflow: hidden;
     padding: 1rem;
-    border: 1px solid #acacac;
+    border: 1px solid var(--light-gray);
     border-radius: 8px;
 
     div {

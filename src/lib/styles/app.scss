@@ -7,3 +7,12 @@
 @import "flex";
 @import "gap";
 @import "backdrop";
+
+html {
+  --nav-height: 84px;
+  --composer-height: 158px;
+
+  --pink: #f2107d;
+  --dark-pink: #370520;
+  --light-gray: #acacac;
+}
