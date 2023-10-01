@@ -1,6 +1,6 @@
 # [<span style="background:#fff;border-radius:4px;padding:.5rem;vertical-align:middle;color:#000;text-decoration:underline"><img src="static/icon-michaelgpt.svg" width="42" height="42" align="center"/>MichaelGPT <small>↗</small></span>](https://michaelgpt.pocketrides.workers.dev/)
 
-## Ask my AI work-related questions ✨
+**Ask my AI work-related questions ✨**
 
 A portfolio piece designed, developed and architected by fullstack developer [Michael Griffith](https://linkedin.com/in/mjg000000). Runs on Cloudflare [Workers AI](https://developers.cloudflare.com/workers-ai/tutorials/build-a-retrieval-augmented-generation-ai/) and [Vectorize](https://developers.cloudflare.com/vectorize/). Built in [SvelteKit](https://kit.svelte.dev).
 
