@@ -2,7 +2,7 @@
   import { saveAnswer, type ChatMessage, messageError } from '$lib/stores/Chat';
   import { quartInOut } from 'svelte/easing';
   import { fly } from 'svelte/transition';
-  import { scramble } from 'svelte-typewriter';
+  import { concurrent } from 'svelte-typewriter';
   import { z } from 'zod';
 
   export let message: ChatMessage;
@@ -41,10 +41,7 @@
   </li>
 {:then}
   {#if message.status === 'loaded'}
-    <li
-      class="system"
-      use:scramble={{ scrambleDuration: 750, scrambleSlowdown: false }}
-    >
+    <li class="system" use:concurrent={{ duration: 750 }}>
       {message.answer}
     </li>
   {:else}

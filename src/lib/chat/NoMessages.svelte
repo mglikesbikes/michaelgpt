@@ -12,7 +12,7 @@
 <style lang="scss">
   li {
     height: 110px;
-    transition: height 0.25s ease-in-out;
+    transition: height 750ms ease-in-out;
 
     &.empty {
       height: calc(
