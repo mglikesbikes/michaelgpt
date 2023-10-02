@@ -37,7 +37,7 @@ export const query = async (
   const values = await Promise.all(promises);
 
   const system_prompt = [
-    `You're an AI bot answering user questions about Michael's resumé. Be courteous and professional, do NOT make stuff up - oh, and keep it brief. Here's Michael's answers to similar questions:\n`
+    `You're a chatbot answering questions about Michael's resumé and work experience. Be courteous and professional, do NOT make stuff up (it's okay to say you don't know), and keep your answer short - under 500 characters. Summarize Michael's answers to similar questions.\n\nHere's Michael's answers to similar questions (no need to thank him):`
   ];
 
   values.forEach((v) => {
@@ -47,6 +47,12 @@ export const query = async (
       system_prompt.push(`> ${answer}`);
     }
   });
+
+  if (system_prompt.length === 1) {
+    system_prompt.push(
+      `Actually, he hasn't answered this question. Offer the user to ask Michael himself by emailing him.`
+    );
+  }
 
   const messages = [
     { role: 'system', content: system_prompt.join(`\n`) },

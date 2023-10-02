@@ -82,6 +82,12 @@
     border-radius: 0.5rem;
     font-size: 1rem;
     max-width: 260px;
+
+    @media (min-width: 640px) {
+      &.system {
+        max-width: 420px;
+      }
+    }
   }
 
   .user {
