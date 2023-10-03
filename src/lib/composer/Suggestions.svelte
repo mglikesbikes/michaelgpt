@@ -89,6 +89,6 @@
     text-align: left;
 
     overflow: hidden;
-    height: 48px;
+    height: 52px;
   }
 </style>
