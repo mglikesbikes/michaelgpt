@@ -17,9 +17,14 @@ export const POST: RequestHandler = async (event) => {
     .safeParse(data);
 
   if (valid.success) {
-    const result = await query(event.platform, valid.data.q);
+    try {
+      const result = await query(event.platform, valid.data.q);
 
-    return json(result);
+      return json(result);
+    } catch (e) {
+      console.log('>> error');
+      console.log(e);
+    }
   }
 
   return json({

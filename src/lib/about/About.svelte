@@ -6,7 +6,7 @@
       text: `Let's talk`
     },
     {
-      href: 'https://linkedin.com/in/mjg000000',
+      href: 'https://www.linkedin.com/in/michaelgriffith3/',
       icon: 'linkedin',
       text: `Follow me`
     },
@@ -27,14 +27,10 @@
   <div>
     <h2 data-header>What is this?</h2>
     <div data-flex="v" data-gap>
-      <p>My name is Michael, and I’m a web developer.</p>
       <p>
-        I’m relocating to the 🇳🇱Netherlands and need sponsorship on a
-        highly-skilled migrant visa.
-      </p>
-      <p>
-        To that end, I made this AI chatbot based on my resumé to help you get
-        to know me.
+        My name is Michael, and I’m a full-stack engineer & lead front-end
+        developer. I made this AI chatbot based on my resumé to help you get to
+        know me.
       </p>
     </div>
   </div>
@@ -48,10 +44,6 @@
       </li>
     {/each}
   </ul>
-  <small>
-    Copyright notice: GPT and others are trademarks of OpenAI and their
-    respective orgs. Imitation is the most sincere form of flattery!
-  </small>
 </article>
 
 <style lang="scss">
@@ -73,8 +65,8 @@
     }
   }
 
-  small {
-    font-size: 11px;
-    color: var(--light-gray);
-  }
+  // small {
+  //   font-size: 11px;
+  //   color: var(--light-gray);
+  // }
 </style>
