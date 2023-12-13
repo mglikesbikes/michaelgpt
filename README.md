@@ -133,7 +133,7 @@ Performs the query for the frontend side of things (including generating the pro
 
 Feel free to fork this repo, I personally think Cloudflare is the most exciting of the new-generation serverless infrastructure providers — though it comes with a steep learning curve. I'm happy to help answer any questions, fix any bugs you find, etc., but don't get it twisted: I built this as a portfolio piece to showcase my fullstack abilities as a UX designer, technical architect, and fullstack Typescript developer.
 
-If you're a Dutch company looking for someone who wears as many hats as will fit, [connect with me on LinkedIn](https://linkedin.com/in/mjg000000).
+If you're looking for someone who wears as many hats as will fit, [connect with me on LinkedIn](https://linkedin.com/in/mjg000000).
 
 #### Copyright notice
 
