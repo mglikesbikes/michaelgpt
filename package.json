@@ -28,8 +28,8 @@
     }
   },
   "devDependencies": {
-    "@cloudflare/ai": "^1.0.37",
-    "@cloudflare/workers-types": "^4.20230922.0",
+    "@cloudflare/ai": "^1.2.2",
+    "@cloudflare/workers-types": "^4.20240821.1",
     "@fontsource/roboto": "^5.0.8",
     "@fontsource/roboto-slab": "^5.0.12",
     "@playwright/test": "^1.38.1",

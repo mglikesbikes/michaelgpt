@@ -1,5 +1,3 @@
-import { Ai } from '@cloudflare/ai';
-
 /**
  * Helper to create or update the data source
  */
@@ -20,10 +18,9 @@ export const upsert = async (
     );
 
     // spin up the AI helper
-    const ai = new Ai(platform.env.AI);
 
     // get the embeddings
-    const embeddings = await ai.run('@cf/baai/bge-base-en-v1.5', {
+    const embeddings = await platform.env.AI.run('@cf/baai/bge-base-en-v1.5', {
       text: [question, answer]
     });
 
